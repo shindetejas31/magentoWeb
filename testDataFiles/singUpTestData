@@ -1,0 +1,22 @@
+{
+  "validLogin": {
+    "email": "john.doe@email.com",
+    "password": "password123",
+    "expectedResult": "Login Success"
+  },
+  "invalidEmail": {
+    "email": "invalid.email@com",
+    "password": "password123",
+    "expectedResult": "Invalid Credentials"
+  },
+  "incorrectPassword": {
+    "email": "john.doe@email.com",
+    "password": "wrongpass",
+    "expectedResult": "Incorrect Password"
+  },
+  "emptyFields": {
+    "email": "",
+    "password": "",
+    "expectedResult": "Empty Fields"
+  }
+}
